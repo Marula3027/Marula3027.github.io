@@ -1,0 +1,31 @@
+<parent>
+<university>
+
+<schools>
+<Departments>
+<offices>
+Office 1 : Room 101
+</offices>
+</Departments>
+</schools>
+
+</university>
+<university>
+
+<schools>
+<Departments>
+<offices>
+Office 1 : Room 101
+</offices>
+</Departments>
+</schools>
+
+</university>
+</parent>
+
+
+HTML                               XML
+may not have end tags           must have end tags 
+not case sensitive              case sensitive
+shows the content                
+
