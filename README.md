@@ -1,16 +1,13 @@
-## Hi there 👋
+# Project Title
+The project "All About Baking" is about a Bakery recipes project in which there are different recipe such as savoury and sweet. It is for people who love baking and are passionate to learn new recipes. 
 
-<!--
-**nowalshah/nowalshah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Installation
+Steps to install and run the project
 
-Here are some ideas to get you started:
+##Usage
+Example of how to use the project.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+###Authors
+Syeda Nowal Shah
+Marula Gambhir
+
