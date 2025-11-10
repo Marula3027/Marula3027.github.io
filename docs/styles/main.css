@@ -1,0 +1,22 @@
+h1{
+    font-style: italic;
+    font-size: 80px ;
+    text-transform: uppercase;
+}
+h2{
+ color:black;
+}
+main h3{
+    text-align: center;
+}
+h3{
+    color: black;
+    text-align: left;
+}
+a{
+    color:palevioletred;
+    text-decoration: none;
+}
+.container{
+    border: 2px solid black;
+}
