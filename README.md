@@ -8,6 +8,6 @@ Our website is easy to access, the user just need to type the name on the web br
 ## Usage
 This webiste is whole-heartedly made for the baking passionates who want to learn but have to go through a lot of website to get the recipe which is of their choice.
 ### Author
-#Marula Gambhir
-#Nowal Shah
-#Oumaima 
+Marula Gambhir
+Nowal Shah
+Oumaima 
