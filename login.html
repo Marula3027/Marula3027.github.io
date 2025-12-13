@@ -1,0 +1,150 @@
+ <!-- Syeda Nowal Shah -->
+ <!-- N01761299 -->
+ <!-- Section: 0ND -->
+ <!-- Login Page (html file) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In / Sign Up - All About Baking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/Hand-Lettered Logo for 'All About Baking'.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/Cupcake Focused Baking Logo.png" width="100" alt="logo">
+        <h1>All About Baking</h1>
+
+        <nav class="navigate">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="stores.html">Stores</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="recipe.html">Recipe</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="tools.html">Baking Tools</a></li>
+               <li><a href="login.html">Login</a></li>
+               <li><button id="iconToggle" class="theme-toggle">
+                    <span class="sun">☀️</span>
+                    <span class="moon">🌙</span>
+                </button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SIGN IN / SIGN UP SECTION -->
+    <main>
+        <section class="login-section">
+            <h2>Create an Account / Sign In</h2>
+            <p>Please enter your information to continue.</p>
+
+            <form class="login-form" action="sign.html" method="post">
+
+                <!-- This will show the full Name -->
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+                <!-- This will show the email Address -->
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <!-- The password goes here -->
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <!-- These are the buttons for submit -->
+                <button type="submit" class="signin-btn"><a href="sign.html">Sign In</a></button>
+                <button type="submit" class="signup-btn">Sign Up</button>
+
+                <p class="extra-links">
+                    <a href="signin.html">Forgot Password?</a><br>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3><strong>All About Baking</strong></h3>
+            <p>Your trusted companion in the world of baking</p>
+            
+            <ul class="Explore">
+                <li>Explore</li>
+                <nav class="explore-info">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="stores.html">Stores</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="tools.html">Baking Tools</a></li>
+                </nav>
+            </ul>
+
+           <ul class="Categories">
+                <li>Categories</li>
+                <nav class="categories-info">
+                    <li><a href="https://youtu.be/rkMZaRw4khs?si=wRUCllKvi4DVmZlH" target="_blank">Breads & Rolls</a></li>
+                    <li><a href="https://youtu.be/oD1anfQsgbE?si=rBWc-VQHMuOUCMyT" target="_blank">Cakes & Cupcakes</a></li>
+                    <li><a href="https://youtube.com/shorts/kc1Qwpue22w?si=KblUlD4oRkiUMR7i" target="_blank">Cookies & Bars</a></li>
+                    <li><a href="https://youtu.be/QjsTLypTgjQ?si=2BFR5eqZgRjlHzes" target="_blank">Pastries & Pies</a></li>
+                </nav>
+            </ul>
+            <ul class="Support">
+                <li>Support</li>
+                <nav class="support-info">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </nav>
+            </ul>
+
+            <ul class="Connect">
+                <li>Connect</li>
+                <nav class="connect-info">
+                    <li>
+                      <a href="http://www.instagram.com/" target="_blank">
+                         <i class="fa-brands fa-instagram"></i>
+                      </a>
+                  </li>
+                  <li>
+                       <a href="http://www.snapchat.com/" target="_blank">
+                         <i class="fa-brands fa-snapchat"></i>
+                       </a>
+                  </li>
+                  <li>
+                       <a href="http://www.facebook.com/" target="_blank">
+                          <i class="fa-brands fa-facebook"></i>
+                       </a>
+                  </li>
+                    <li>
+                       <a href="http://www.pinterest.com/" target="_blank">
+                          <i class="fa-brands fa-pinterest"></i>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="http://www.twitter.com/" target="_blank">
+                         <i class="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
+
+                </nav>
+                
+                
+            </ul>
+        </div>
+
+        <p class="copyright">
+            <br>&copy; 2025 All About Baking — All Rights Reserved.<br>
+            Website designed by Marula Gambhir, Nowal Shah, Oumaima.
+        </p>
+    </footer>
+    <button id="backToTop">	&uarr;</button>
+</body>
+</html>

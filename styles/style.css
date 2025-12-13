@@ -1,0 +1,42 @@
+/* Theme Toggle styling */
+.navigate li{
+    font-size: 18.5px;
+    padding:0;
+    margin: 0;
+}
+.theme-toggle{
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    float: inline-end;
+}
+.sun{
+    display: inline;
+}
+
+.moon{
+    display: none;
+}
+
+.dark .sun{
+    display: none;
+}
+
+.dark .moon{
+    display: inline;
+}
+/* Back to Top styling */
+
+#backToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}

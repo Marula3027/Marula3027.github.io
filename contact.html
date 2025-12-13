@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CONTACT US</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marula">
+    <meta name="keyword" content="HTML,CSS,Web Design">
+    <meta name="description" content="Contact page of our baking website">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/contact.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/Hand-Lettered Logo for 'All About Baking'.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/Cupcake Focused Baking Logo.png" alt="baking logo" width="100">
+        <h1>All About Baking</h1>
+        <nav class="navigate">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="stores.html">Stores</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="recipe.html">Recipe</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="tools.html">Baking Tools</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><button id="iconToggle" class="theme-toggle">
+                    <span class="sun">☀️</span>
+                    <span class="moon">🌙</span>
+                </button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or custom order requests, we’d love to hear from you!  
+               Please fill out the form below or reach us through our social media pages.</p>
+
+            <form class="contact-form" action="send.html" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" autofocus required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message..." required></textarea>
+
+                <button type="submit"><a href="send.html">Send Message</a></button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Visit Us</h3>
+                <p><strong>All About Baking</strong><br>
+                   123 Sweet Street, Toronto, ON M4B 1B3<br>
+                   Phone: (416) 555-2253<br>
+                   Email: info@allaboutbaking.ca</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+         <div class="container">
+            <h3 style="font-size: 20px;"><strong>All About Baking</strong></h3>
+            <p style="font-size: 18px;">Your trusted companion in the world of baking</p>
+            <ul class="Explore">
+                <li>Explore</li>
+                <nav class="explore-info">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="stores.html">Stores</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="tools.html">Baking Tools</a></li>
+                </nav>
+            </ul>
+
+            <ul class="Categories">
+                <li>Categories</li>
+                <nav class="categories-info">
+                    <li><a href="https://youtu.be/rkMZaRw4khs?si=wRUCllKvi4DVmZlH" target="_blank">Breads & Rolls</a></li>
+                    <li><a href="https://youtu.be/oD1anfQsgbE?si=rBWc-VQHMuOUCMyT" target="_blank">Cakes & Cupcakes</a></li>
+                    <li><a href="https://youtube.com/shorts/kc1Qwpue22w?si=KblUlD4oRkiUMR7i" target="_blank">Cookies & Bars</a></li>
+                    <li><a href="https://youtu.be/QjsTLypTgjQ?si=2BFR5eqZgRjlHzes" target="_blank">Pastries & Pies</a></li>
+                </nav>
+            </ul>
+
+            <ul class="Support">
+                <li>Support</li>
+                <nav class="support-info">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </nav>
+            </ul>
+
+            <ul class="Connect">
+                <li>Connect</li>
+                <nav class="connect-info">
+                    <li><a href="http://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="http://www.snapchat.com/" target="_blank"><i class="fa-brands fa-snapchat"></i></a></li>
+                    <li><a href="http://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="http://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li><a href="http://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                </nav>
+            </ul>
+        </div>  
+
+        <p class="copyright">
+            <br>&copy; Copyright 2025 All About Baking All rights reserved.<br>
+            Website designed by Marula Gambhir, Nowal Shah, Oumaima
+        </p>
+    </footer>
+    <button id="backToTop">	&uarr;</button>
+</body>
+</html>

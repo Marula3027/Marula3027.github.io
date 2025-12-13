@@ -1,0 +1,213 @@
+/* ---------- Syeda Nowal Shah---------- */
+/* ---------- N01761299 ---------- */
+/* ---------- Section: 0ND ---------- */
+/* ---------- Home Page(Css FIle) ---------- */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    color: #333;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+.hero 
+{
+    background-image: url('../images/baker.avif');
+    background-size: cover;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-position: center;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text 
+{
+    background: rgba(255, 255, 255, 0.733);
+    padding: 24px 40px;
+    text-align: center;
+    max-width: 90%; 
+}
+.hero-text h2 
+{
+    font-size: 45px;
+    color: #6e5d39;
+    margin: 0 0 10px 0;
+}
+.hero-btn 
+{
+    background-color: #6e5d39;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.featured 
+{
+    padding: 40px 60px;
+    text-align: center;
+}
+.section-title 
+{
+    font-size: 50px;
+    color: #6e5d39;
+    margin-bottom: 20px;
+}
+.featured-row 
+{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.featured-card
+{
+    width: 363px;
+    background: #fff7ea;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
+.featured-card img
+{
+    width: 85% ;
+    border-radius: 20px;
+}
+.featured-row .featured-card:nth-child(2) img 
+{
+    width: 80%; 
+    height: 310px;       
+    margin: 0 auto; 
+}
+.card-btn
+{
+    background-color: #6e5d39;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 5px;
+    margin-top: 1px;
+    display: inline-block;
+}
+.categories 
+{
+    background: #fff7ea;
+    padding: 36px 26px;
+    text-align: center;
+}
+.category-row 
+{
+    display: flex;
+    justify-content: center;
+    gap: 78px;
+    flex-wrap: wrap;
+}
+.category-box 
+{
+    text-align: center;
+    font-size: 19px;
+    color:#6e5d39;
+    margin-top: 6px;
+}
+.about-preview 
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 15px 50px;
+    gap: 40px; 
+    flex-wrap: wrap;
+}
+.about-content 
+{
+    max-width: 400px; 
+    text-align: left; 
+}
+.about-img {
+    width: 312px; 
+    max-width: 90%; 
+    border-radius: 17px;
+    margin: 1px;
+}
+.about-btn 
+{
+    background-color: #6e5d39;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 12px;
+    text-decoration: none;
+}
+button{
+    background-color: #d5c4a5;
+    color: #2c2416;
+}
+@media screen and (max-width: 768px) 
+{
+    .hero-text h2
+    {
+        font-size: 35px;
+    }
+    .featured-card
+    {
+        width: 90%;
+    }
+    .about-preview 
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-img 
+    {
+        width: 80%;
+    }
+}
+
+/* DARK MODE STYLING*/
+body.dark{
+    background: linear-gradient(135deg, #877c68, #494131);
+}
+.dark header{
+    background-color:#2c2416;
+}
+.dark header h1, .dark .navigate a{
+    color: #d7bd8d;
+}
+.dark .navigate a:hover{
+    color: #ebe4d7;
+}
+.dark .hero{
+    background-image: url('../images/baker.avif');
+    background-size: cover;
+}
+.dark .featured-card{
+    background-color: #2c2416;
+}
+.dark .featured-card h3, .dark .featured-card p{
+    color: #e1d7c5;
+}
+.dark .about-content h2, .dark .about-content p{
+    color:#e1d7c5;
+}
+.dark .about-btn{
+    background-color: #3e321e;
+    color: white;
+}
+.dark footer{
+    background-color: #2c2416;
+}
+.dark footer h3, .dark footer p, .dark footer ul li,.dark footer ul li a{
+    color:#e1d7c5;
+}
+.dark body button{
+    background-color: #e1d7c5;
+    color: #2c2416;
+}
